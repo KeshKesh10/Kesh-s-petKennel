@@ -32,9 +32,6 @@ class App extends Component {
         if (pet.mood === 'sad') {
           newMood = 'happy';
           newStatus = 'Happy & Fed!';
-        } else if (pet.mood === 'happy') {
-          newMood = 'angry';
-          newStatus = 'Angry! Too much play!';
         } else {
           newMood = 'sad';
           newStatus = 'Hungry';

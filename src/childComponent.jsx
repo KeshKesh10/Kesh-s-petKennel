@@ -21,8 +21,6 @@ class ChildComponent extends React.Component {
     let currentImage = sadImage; // default to sad
     if (mood === 'happy') {
       currentImage = happyImage;
-    } else if (mood === 'angry') {
-      currentImage = angryImage;
     }
     
     return (
@@ -44,7 +42,7 @@ class ChildComponent extends React.Component {
         </div>
         
         <p className="pet-status">
-          Status: <span className={mood === 'happy' ? "status-happy" : mood === 'angry' ? "status-angry" : "status-sad"}>
+          Status: <span className={mood === 'happy' ? "status-happy" : "status-sad"}>
             {status}
           </span>
         </p>
@@ -53,7 +51,7 @@ class ChildComponent extends React.Component {
           onClick={this.handleClick}
           className="interact-button"
         >
-          {mood === 'happy' ? "Play More!" : mood === 'angry' ? "Calm Down" : "Feed & Play"}
+          {mood === 'happy' ? "Play More!" : "Feed & Play"}
         </button>
       </div>
     );
