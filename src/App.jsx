@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div className="app-container">
         <h1>Kesh's Pet Kennel</h1>
-        <p className="subtitle">Take care of your furry friends!</p>
+        <p className="subtitle">Take care of your pets!</p>
         
         <div className="pets-container">
           {/* TODO: Map through your state characters here and render ChildComponents */}
