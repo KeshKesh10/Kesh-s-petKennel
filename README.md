@@ -24,11 +24,18 @@ Speed: You'll notice the development server starts almost instantly.
 
 How to Run
 
-Local Development
+1. Install dependencies:
+```
+npm install
+```
 
-Run the following command to start the Vite dev server:
-
+2. Start the dev server:
+```
 npm run dev
+```
 
+3. Open your browser and go to http://localhost:5173/
+
+That's it! Click the buttons to feed your pets and watch them get happy.
 
 Note: Vite defaults to port 5173. Check your terminal output for the local URL.
